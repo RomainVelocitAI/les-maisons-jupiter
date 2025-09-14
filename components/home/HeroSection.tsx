@@ -8,11 +8,11 @@ import { motion, AnimatePresence } from 'framer-motion';
 export const HeroSection: React.FC = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   
-  // URLs des images générées par nano-banana
+  // Images locales pour le carousel
   const images = [
-    'https://replicate.delivery/xezq/dLceAT4f33mQ1kBahtxeTEjQDjcgsdfF5lWhnk5uVkteyjmqC/tmpdtdllehy.jpeg', // Plan de maison
-    'https://replicate.delivery/xezq/pih3NMuHg7qAAx4Urafu5OR093Rf3HeIP8LBTfYaIe5H5jmqC/tmphdic7rb6.jpeg', // Vue isométrique 3D
-    'https://replicate.delivery/xezq/UCJQraIG1KoABZQBfcKnhPe8c5RFxavy4DUIieWkBOXMfRTVB/tmpnhmfeq6g.jpeg', // Vue extérieure réelle
+    '/hero-3.jpeg', // Plan de maison
+    '/hero-2.jpeg', // Vue isométrique 3D
+    '/hero-1.jpeg', // Vue extérieure réelle
   ];
 
   const imageLabels = [
