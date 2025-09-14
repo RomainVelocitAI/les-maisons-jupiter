@@ -51,7 +51,7 @@ export const HeroSection: React.FC = () => {
           >
             {/* Welcome Badge */}
             <div className="inline-flex items-center gap-2 bg-jupiter-or/10 border border-jupiter-or/30 rounded-full px-5 py-2.5 mb-6 shadow-sm">
-              <span className="text-jupiter-or text-sm font-bold">Plus de 27 ans d'expérience - Constructeur certifié</span>
+              <span className="text-jupiter-or text-sm font-bold">Plus de 27 ans d&apos;expérience - Constructeur certifié</span>
             </div>
 
             {/* Headline */}
@@ -158,7 +158,7 @@ export const HeroSection: React.FC = () => {
                 </div>
                 <div>
                   <p className="text-sm text-jupiter-gris-600">
-                    <span className="font-bold text-jupiter-noir">Plus de 27 ans d'expérience</span> à votre service
+                    <span className="font-bold text-jupiter-noir">Plus de 27 ans d&apos;expérience</span> à votre service
                   </p>
                   <div className="flex gap-2 mt-2">
                     <span className="inline-flex items-center gap-1 bg-jupiter-or/10 text-jupiter-or px-2 py-1 rounded-full text-xs font-semibold">

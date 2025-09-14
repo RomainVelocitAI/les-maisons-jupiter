@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Calculator, Home, MapPin, Sparkles, Euro, Info } from 'lucide-react';
+import { Calculator, Home, MapPin, Sparkles, Info } from 'lucide-react';
 import { Button } from '../ui/Button';
 
 // Prix moyens du terrain par m² selon les villes
@@ -152,7 +152,7 @@ export const PriceCalculator: React.FC = () => {
                             : 'border-jupiter-gris-200 hover:border-jupiter-or/50'
                         }`}
                       >
-                        <span className="font-semibold">Oui, j'ai un terrain</span>
+                        <span className="font-semibold">Oui, j&apos;ai un terrain</span>
                       </button>
                       <button
                         onClick={() => setHasLand(false)}
@@ -381,12 +381,12 @@ export const PriceCalculator: React.FC = () => {
                       <p className="font-semibold mb-2">Cette estimation comprend :</p>
                       <ul className="space-y-1 text-jupiter-gris-600">
                         <li>• Les fondations et le gros œuvre</li>
-                        <li>• La toiture et l'isolation</li>
+                        <li>• La toiture et l&apos;isolation</li>
                         <li>• Les menuiseries et finitions intérieures</li>
                         <li>• Les raccordements et viabilisation</li>
                         <li>• Les garanties décennales</li>
                       </ul>
-                      <p className="mt-3 font-semibold">Ne comprend pas : les frais de notaire, l'aménagement extérieur, la piscine</p>
+                      <p className="mt-3 font-semibold">Ne comprend pas : les frais de notaire, l&apos;aménagement extérieur, la piscine</p>
                     </div>
                   </div>
                 </div>

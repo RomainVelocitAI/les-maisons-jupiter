@@ -7,7 +7,6 @@ import {
   Phone, 
   Mail, 
   MapPin, 
-  Clock, 
   User,
   MessageSquare,
   Home,
@@ -221,7 +220,7 @@ export const ContactForm: React.FC = () => {
                           onChange={handleChange}
                           className="mr-2"
                         />
-                        <span>Oui, j'ai un terrain</span>
+                        <span>Oui, j&apos;ai un terrain</span>
                       </label>
                       <label className="flex items-center cursor-pointer">
                         <input
@@ -243,7 +242,7 @@ export const ContactForm: React.FC = () => {
                           onChange={handleChange}
                           className="mr-2"
                         />
-                        <span>J'hésite encore</span>
+                        <span>J&apos;hésite encore</span>
                       </label>
                     </div>
                   </div>
@@ -273,7 +272,7 @@ export const ContactForm: React.FC = () => {
                         className="mt-1 mr-3"
                       />
                       <span className="text-sm text-jupiter-gris-600">
-                        J'accepte que Les Maisons Jupiter utilise mes données pour me recontacter concernant mon projet. 
+                        J&apos;accepte que Les Maisons Jupiter utilise mes données pour me recontacter concernant mon projet. 
                         Vos données sont traitées avec la plus grande confidentialité.
                       </span>
                     </label>
