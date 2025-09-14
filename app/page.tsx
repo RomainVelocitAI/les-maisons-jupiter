@@ -4,6 +4,7 @@ import { WhyChooseUsSection } from "@/components/home/WhyChooseUsSection";
 import { StepsTwoColumns } from "@/components/home/StepsTwoColumns";
 import { VideoTestimonialsSection } from "@/components/home/VideoTestimonialsSection";
 import { PriceCalculator } from "@/components/home/PriceCalculator";
+import { ContactForm } from "@/components/home/ContactForm";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <StepsTwoColumns />
       <VideoTestimonialsSection />
       <PriceCalculator />
+      <ContactForm />
     </>
   );
 }
