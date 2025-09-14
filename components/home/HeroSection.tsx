@@ -228,8 +228,7 @@ export const HeroSection: React.FC = () => {
                 }}
                 transition={{ 
                   duration: 3,
-                  repeat: Infinity,
-                  ease: "easeInOut"
+                  repeat: Infinity
                 }}
                 className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm rounded-2xl shadow-xl p-4 border border-jupiter-gris-200"
               >
@@ -248,7 +247,6 @@ export const HeroSection: React.FC = () => {
                 transition={{ 
                   duration: 3,
                   repeat: Infinity,
-                  ease: "easeInOut",
                   delay: 1.5
                 }}
                 className="absolute bottom-4 right-4 bg-jupiter-noir rounded-2xl shadow-xl p-4"

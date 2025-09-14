@@ -92,8 +92,7 @@ export const StorySection: React.FC = () => {
             }}
             transition={{
               duration: 20 + Math.random() * 10,
-              repeat: Infinity,
-              ease: "linear"
+              repeat: Infinity
             }}
           />
         ))}
