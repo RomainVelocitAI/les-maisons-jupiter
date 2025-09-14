@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Windows special files
+NUL
+CON
+PRN
+AUX
+publicimages
